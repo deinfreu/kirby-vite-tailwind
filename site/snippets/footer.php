@@ -1,3 +1,4 @@
+</div>
 
 <?php $entryFile = isset($entry) ? "templates/$entry/index.js" : null ?>
 

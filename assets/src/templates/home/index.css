@@ -1,0 +1,17 @@
+.wrapper {
+    width:400px;
+    height:100px;
+    background:#444;
+    margin-bottom:10px;
+  }
+  
+  .box {
+    width:100px;
+    height:100px;
+    background:#88ce02;
+  }
+  
+  button {
+    margin:10px 0;
+    padding:10px;
+  }
