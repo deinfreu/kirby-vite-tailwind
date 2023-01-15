@@ -1,10 +1,13 @@
 /* Shared CSS for all pages */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Compagnon Script by Chloé Lozano (http://www.velvetyne.fr/fonts/compagnon/) */
 @font-face {
   font-family: Compagnon;
   font-style: bold;
-  src: url('assets/Compagnon-Bold.woff2');
+  src: url('../fonts/Compagnon-Bold.woff2');
 }
 
 body {

@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "pkief.material-icon-theme",
+        "medienbaecker.kirby-snippets",
+        "christian-kohler.path-intellisense",
+        "bradlc.vscode-tailwindcss"
+    ]   
+}

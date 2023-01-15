@@ -2,21 +2,21 @@ import { resolve } from "path";
 import { readdirSync, existsSync } from "fs";
 import kirby from "vite-plugin-kirby";
 
-const templates = readdirSync("src/templates")
+const templates = readdirSync("assets/src/templates")
   .filter((name) => !/^\./.test(name))
-  .filter((name) => existsSync(`src/templates/${name}/index.js`));
+  .filter((name) => existsSync(`assets/src/templates/${name}/index.js`));
 
 const input = Object.fromEntries([
-  ...templates.map((name) => [name, `src/templates/${name}/index.js`]),
-  ["shared", "src/index.js"],
+  ...templates.map((name) => [name, `assets/src/templates/${name}/index.js`]),
+  ["shared", "assets/src/index.js"],
 ]);
 
 export default ({ mode }) => ({
-  root: "src",
+  root: "assets/src",
   base: mode === "development" ? "/" : "/dist/",
 
   resolve: {
-    alias: [{ find: "@", replacement: resolve(__dirname, "src") }],
+    alias: [{ find: "@", replacement: resolve(__dirname, "assets/src") }],
   },
 
   build: {

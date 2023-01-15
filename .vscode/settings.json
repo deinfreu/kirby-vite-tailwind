@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "composer.lock": true,
+    "package-lock.json": true,
+    "README.md": true,
+    "kirby": true,
+    "vendor": true,
+    ".github": true
+  }
+}
