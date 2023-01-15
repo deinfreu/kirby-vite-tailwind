@@ -1,7 +1,7 @@
 # Kirby Vite Multi-Page Kit
 
 ## Features
-
+- 🌪️ TailwindCSS intergrated with Vite [Vite](https://vitejs.dev/) & [kirby](https://getkirby.com/)
 - ⚡️ Uses [Vite](https://vitejs.dev/) with [kirby-vite](https://github.com/arnoson/kirby-vite) plugin
 - 📚 Multiple pages
 - 🔄 Live Reloading for Kirby templates, snippets, content, ... changes
