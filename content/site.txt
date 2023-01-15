@@ -1,1 +1,84 @@
-Title: Kirby Vite Multi-Page
+Title: Kirby Vite Tailwind
+
+----
+
+Primarynavigation:
+
+- 
+  children: [ ]
+  id: home
+  text: Home
+  url: http://localhost:8888
+  uuid: icodov60bk
+- 
+  children: [ ]
+  id: contact
+  text: Contact
+  url: http://localhost:8888/contact
+  uuid: oqzut0hz22i
+- 
+  children: [ ]
+  id: about
+  text: About
+  url: http://localhost:8888/about
+  uuid: mec38blull
+
+----
+
+Togglemaintenancemode: false
+
+----
+
+Maintenancetitle: 
+
+----
+
+Maintenancesubtitle: 
+
+----
+
+Address: 
+
+----
+
+Contact: 
+
+----
+
+Socialsnavigation: 
+
+----
+
+Listservices: 
+
+----
+
+Select: 
+
+----
+
+Navigation:
+
+- 
+  children: [ ]
+  id: home
+  text: Home
+  url: http://localhost:8888
+  uuid: xl0h28xsil
+- 
+  children: [ ]
+  id: contact
+  text: Contact
+  url: http://localhost:8888/contact
+  uuid: 09yimd1j7of
+- 
+  children: [ ]
+  id: about
+  text: About
+  url: http://localhost:8888/about
+  uuid: k153rm02fo
+  popup: false
+
+----
+
+Toggle: true

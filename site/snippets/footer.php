@@ -1,3 +1,4 @@
+
 <?php $entryFile = isset($entry) ? "templates/$entry/index.js" : null ?>
 
 <!-- Include the shared js ... -->

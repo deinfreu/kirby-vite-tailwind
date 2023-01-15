@@ -1,0 +1,115 @@
+title:
+
+tabs:
+  dashboard:
+    label: 
+      en: dashboard
+      nl: dashboard
+    icon: home
+    columns:
+      dashboardLeft:
+        width: 2/3
+        sections:
+          pages:
+            delete: false
+      dashboardRight:
+        width: 1/3
+        sections:
+          primaryNavigation:
+            type: fields
+            fields:
+              primaryNavigation:
+                label:
+                  en: Navigation
+                  nl: Navigatie
+                type: navigation
+                levels: 2
+                help:
+                  en: Primary menu
+                  nl: Primair menu
+
+  Maintenance:
+    label:
+      en: Maintenance
+      nl: Onderhoud
+    icon: flag
+    columns:
+      maintenanceLeft:
+        width: 3/12
+        sections:
+          maintenanceModeEnable:
+            type: fields
+            fields:
+              toggleMaintenanceMode:
+                label:
+                  nl: Onderhouds modus
+                  en: Maintenance mode
+                type: toggle
+                autofocus: true
+                when: 
+                text:
+                  -
+                    en: disabled
+                    nl: uitgeschakeld
+                  -
+                    en: enabled
+                    nl: ingeschakeld
+                help:
+                  nl: Stuurt bezoekers naar 'website.domein/onderhoud'
+                  en: Sends visitors to 'website.domain/maintenance'
+      maintenanceCenter:
+        width: 6/12
+        sections:
+          maintenanceModeSettings:
+            type: fields
+            fields:
+              maintenanceTitle:
+                label:
+                  en: Title
+                  nl: Titel
+                type: text
+                help:
+                  nl: Titel voor onderhoudspagina
+                  en: Title for maintenance page
+              maintenanceSubTitle:
+                label:
+                  en: Subtitle
+                  nl: Subtitel
+                type: text
+                help:
+                  nl: Subtitel voor onderhoudspagina
+                  en: Subtitle for maintenance page
+              address:
+                label:
+                  en: Address
+                  nl: Adres
+                type: textarea
+              contact:
+                label:
+                  en: Contact
+                  nl: Contact
+                type: textarea
+      maintenanceRight:
+        width: 3/12
+        sections:
+          maintenanceModeContent:
+            type: fields
+            fields:
+              listServices:
+                label:
+                  en: Services
+                  nl: Diensten
+                type: navigation
+                levels: 1
+                help:
+                  en: Services
+                  nl: Diensten
+              socialsNavigation:
+                label:
+                  en: Socials
+                  nl: Socials
+                type: navigation
+                levels: 1
+                help:
+                  en: Socials
+                  nl: Socials

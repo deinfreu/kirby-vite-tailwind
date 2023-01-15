@@ -3,6 +3,8 @@
         "pkief.material-icon-theme",
         "medienbaecker.kirby-snippets",
         "christian-kohler.path-intellisense",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "heybourn.headwind",
+        "redhat.vscode-yaml"
     ]   
 }
