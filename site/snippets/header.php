@@ -1,4 +1,4 @@
-<?= $template = $page->template() ?>
+<?= $template = $page->e()->template() ?>
 
 <!DOCTYPE html>
 <html lang="en">
